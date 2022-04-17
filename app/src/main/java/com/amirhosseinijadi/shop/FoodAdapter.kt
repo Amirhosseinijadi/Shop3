@@ -95,6 +95,7 @@ class FoodAdapter(private val data:ArrayList<Food>,private val contex:Context,pr
 
         fun onfoodlongclicked(food:Food,pos:Int)
 
+
     }
     fun updatefood(newfood:Food,position:Int){
         data.set(position,newfood)
